@@ -1,4 +1,4 @@
-﻿;; -*- coding: utf-8 -*-
+;; -*- coding: utf-8 -*-
 (add-to-list 'load-path (expand-file-name "~/.emacs.d"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/init"))
 
@@ -18,6 +18,24 @@
 ;;font setting
 (require 'init-font-setting)
 
+(require 'init-site-lisp)
+(require 'init-elpa)
+(require 'init-themes)
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (sanityinc-solarized-light))
+ '(custom-safe-themes (quote ("2fb1ba3edcd576700cad25ef174272bd9c66bc4db623cb66d58d2ff0addf0839" default)))
+ '(scroll-bar-mode nil))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
