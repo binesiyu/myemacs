@@ -436,7 +436,7 @@
 	    [(20121227 1032)
 	     nil "Rip Clojure namespaces apart and rebuild them. [source: github]" single])
  (skewer-mode .
-	      [(20130104 1134)
+	      [(20130107 2032)
 	       ((simple-httpd
 		 (1 4 0))
 		(js2-mode
@@ -622,7 +622,7 @@
 	   [(20121128 2314)
 	    nil "Run commands quickly [source: github]" single])
  (quickref .
-	   [(20121227 1634)
+	   [(20130107 2214)
 	    ((dash
 	      (1 0 3))
 	     (s
@@ -1140,7 +1140,7 @@
 			       [(20121223 154)
 				nil "Advice for magit-log-edit-commit [source: github]" single])
  (magit .
-	[(20130106 1348)
+	[(20130108 758)
 	 nil "Control Git from Emacs. [source: github]" tar])
  (macrostep .
 	    [(20121125 0)
@@ -1462,7 +1462,7 @@
 	    (20120509)))
 	  "helm-sources and some utilities for GNU R. [source: github]" single])
  (helm .
-       [(20130107 710)
+       [(20130107 1926)
 	nil "Helm is an Emacs incremental and narrowing framework [source: github]" tar])
  (header2 .
 	  [(20121228 2051)
@@ -1584,7 +1584,7 @@
 		 [(20121012 1635)
 		  nil "Major mode for editing .gitconfig files [source: github]" single])
  (git-commit-mode .
-		  [(20130102 2139)
+		  [(20130107 1301)
 		   nil "Major mode for editing git commit messages [source: github]" single])
  (git-blame .
 	    [(20110509 1226)
@@ -1963,8 +1963,8 @@
 	 [(20111009 1416)
 	  nil "A more pleasant way to manage your project's subprocesses in Emacs. [source: github]" tar])
  (dispass .
-	  [(20121204 103)
-	   nil "Generate and disperse/dispell passwords [source: github]" single])
+	  [(20130108 40)
+	   nil "Emacs wrapper for DisPass [source: github]" single])
  (disk .
        [(20081128 1506)
 	nil "simplified find-file, revert-file, save-buffer interface [source: wiki]" single])
@@ -2131,7 +2131,7 @@
 	       [(20121229 2155)
 		nil "Major mode for Clojure code [source: github]" single])
  (cljsbuild-mode .
-		 [(20121024 1041)
+		 [(20130105 1354)
 		  nil "A minor mode for the ClojureScript 'lein cljsbuild' command [source: github]" single])
  (citrus-mode .
 	      [(20121008 1918)
@@ -2197,7 +2197,7 @@
 	   [(20081011 2126)
 	    nil "Quote text with a semi-box. [source: github]" single])
  (bookmark+ .
-	    [(20130105 17)
+	    [(20130108 444)
 	     nil "Bookmark+: extensions to standard library `bookmark.el'. [source: wiki]" tar])
  (bm .
      [(20121212 2224)
