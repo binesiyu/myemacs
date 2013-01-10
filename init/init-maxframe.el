@@ -27,10 +27,10 @@
 
 (defun maybe-maximize-frame (&optional frame)
   (with-selected-frame frame
-      (when (and window-system
+    (when (and window-system
                sanityinc/prev-frame
                (maximized-p sanityinc/prev-frame))
-	(maximize-frame))))
+      (maximize-frame))))
 
 (add-hook 'after-make-frame-functions 'maybe-maximize-frame)
 (add-hook 'after-init-hook 'maybe-maximize-frame)

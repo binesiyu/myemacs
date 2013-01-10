@@ -1,12 +1,12 @@
 ;;----------------------------------------------------------------------------
 ;; Stop C-z from minimizing windows under OS X
 ;;----------------------------------------------------------------------------
-;;(defun maybe-suspend-frame ()
-;;  (interactive)
-;;  (unless (and *is-a-mac* window-system)
-;;    (suspend-frame)))
-;;
-;;(global-set-key (kbd "C-z") 'maybe-suspend-frame)
+(defun maybe-suspend-frame ()
+  (interactive)
+  (unless (and *is-a-mac* window-system)
+    (suspend-frame)))
+
+(global-set-key (kbd "C-z") 'maybe-suspend-frame)
 
 
 ;;----------------------------------------------------------------------------
@@ -27,10 +27,10 @@
 ;;----------------------------------------------------------------------------
 ;; Window size and features
 ;;----------------------------------------------------------------------------
-;;(when (fboundp 'tool-bar-mode)
-;;  (tool-bar-mode -1))
-;;(when (fboundp 'set-scroll-bar-mode)
-;;  (set-scroll-bar-mode nil))
+(when (fboundp 'tool-bar-mode)
+  (tool-bar-mode -1))
+(when (fboundp 'set-scroll-bar-mode)
+  (set-scroll-bar-mode nil))
 
 (defun adjust-opacity (frame incr)
   (let* ((oldalpha (or (frame-parameter frame 'alpha) 100))
